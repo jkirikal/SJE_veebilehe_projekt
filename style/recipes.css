@@ -1,6 +1,6 @@
 * {
     font-family: Arial, sans-serif;
-    color: #0F0E0E;
+    color: #0f4940;
 }
 
 ul {
@@ -22,33 +22,43 @@ a {
 header {
     display:flex;
     flex-direction:column;
-    background-color: #FFCC1D;
+    background-color: #146356;
 }
 
 header h1 {
     display:flex;
     justify-content:center;
-    background-color: #116530;
     border-radius: 3px;
     margin: 10px;
     padding: 4px;
+    color:#FFF1BD;
 }
+
+
 
 
 nav {
     display:flex;
     justify-content:space-around;
-    margin: 10px;
-    
+    background-color: #0f4940;
 }
 
 nav a {
     display:flex;
     justify-content:center;
     width:300px;
-    background-color: #116530;
     border-radius: 3px;
+    
 }
+
+nav a:hover {
+    background-color: #3b786f;
+  }
+  
+nav a h2 {
+    color:#FFF1BD;
+}
+
 .main {
     display:flex;
     flex-direction:column;
@@ -56,17 +66,18 @@ nav a {
 .basic_inf{
     display:flex;
     flex-direction:row;
-    background-color: #9EB23B;
+    background-color: #b5daa6;
     border-radius: 3px;
-    margin:10px;
     padding:5px;
+    color: #FFF1BD;
 
 }
 
 .food{
-    background-color: #FFCC1D;
+    background-color: #FFF1BD;
     border-radius: 3px;
     margin: 10px;
+    height: 400px;
 }
 
 .food_basic h4 ul{
