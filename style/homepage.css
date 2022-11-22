@@ -6,8 +6,8 @@ body {
     background-color: #E8E8CC;
 }
 
-a {
-    text-decoration: none
+a:hover {
+    color:#3b786f
 }
 
 header {
@@ -44,4 +44,17 @@ nav a:hover {
   
 nav a h2 {
     color:#FFF1BD;
+}
+.tekst{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: #FFF1BD;
+}
+.pealkiri{
+    width: 50%;
+    display:flex;
+    border-radius: 3px;
+    background-color: #b5daa6;
 }
