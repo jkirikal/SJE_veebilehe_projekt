@@ -1,0 +1,38 @@
+[
+    {
+      "foodId": 1,
+      "name": "Pasta Bolognese",
+      "basicData":[20,5,4,500],
+      "items": ["1 sibul","2 küüslauguküünt", "300-500g hakkliha", "400g purustatud tomateid/tomatipastat", "sool, pipar", "basiilik", "500g, spagette/makarone"],
+      "instruction":"Pruunista  hakitud sibul. Lisa hakkliha, maitsesta soolaga ja prae veel umbes 5 minutit. Lisa hakitud küüslauk. Lisa  tomatipasta. Kuumuta keemiseni, siis alanda kuumust, ja lase veits podiseda. Sega aeg-ajalt, et vältida põhjakõrbemist. Maitsesta vajadusel soola-pipraga, sega juurde katkirebitud värskeid basiilikulehti(fancy). Sega keedetud makaronidega, peale riivi parmesani."
+
+    },
+    {
+      "foodId": 2,
+      "name": "Wok",
+      "basicData":{"aeg":20,"hind":5,"toidukordi":4,"Kcal":500},
+      "items":["1 sibul", "2 pakki kiirnuudleid/100 g munanuudleid", "oma soovi järgi pakk külmutatud köögivilju", "200-250g kanaliha", "magushapu/bbq kaste"],
+      "instruction":"Pruunista sibul, lisa kana ja küpseta samuti pruuniks. Seejärel lisa külmutatud köögiviljad ja lase kaane all üles soojeneda. Samal ajal kalla nuudlitele keedetud vesi peale ja lase pehmeneda. Lisa pehmed nuudlid pannile, lisa maitse järgi soola, pipart ja kastet ning sega korralikult läbi."
+    },
+    {
+      "foodId": 3,
+      "name": "Wrap",
+      "basicData":[20,5,4,500],
+      "items":[],
+      "instruction":""    
+    },
+    {
+        "foodId": 3,
+        "name": "Koorene kanapasta",
+        "basicData":[20,5,4,500],
+        "items":[],
+        "instruction":""  
+      },
+      {
+        "foodId": 3,
+        "name": "Chili con carne",
+        "basicData":[20,5,4,500],
+        "items":[],
+        "instruction":""  
+      }
+]

@@ -3,10 +3,12 @@
     color: #0f4940;
 }
 body {
+    margin: 0px;
     background-color: #E8E8CC;
 }
 a {
-    text-decoration: none
+    text-decoration: none;
+    transition:0.5s;
 }
 header {
     display:flex;
@@ -32,7 +34,7 @@ nav {
 nav a {
     display:flex;
     justify-content:center;
-    width:300px;
+    width:33.3%;
     border-radius: 3px;
     
 }
