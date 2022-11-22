@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style/feedback.css">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+
     <title>Retseptiabi</title>
 </head>
 <body>
@@ -18,19 +20,35 @@
             </nav>
         </header>
     </div>
-    <div>
-        <h2>Meist</h2>
-    <p>
-        Kui tahad anda üldist tagasisidet või jagada midagi, kirjuta meile!<br>Kreete - meil<br>Kärt - meil<br>Johan - meil
-    </p>
-        <h2>Soovitused</h2>
-        <p>Kui tead mõnda head retsepti mida tahaksid kajastada meie lehel siis jäta enda retsept siia.</p>
-    <form action="/action_page.php" id="usrform">
-        Nimi: <input type="text" name="usrname">
-        <input type="submit">
-      </form>
-      <br>
-      <textarea rows="4" cols="50" name="comment" form="usrform"> Kirjuta siia...</textarea>
+    <div class="kastid">
+        <div class="vasak">    
+            <div class ="pealkiri">
+                <h2>Kontaktid</h2>
+            </div>
+            <div class="textbox">    
+                <p>
+                    Kui tahad anda üldist tagasisidet või jagada midagi, kirjuta meile!<br>tudengiretseptid@gmail.com
+                </p>
+            </div>
+        </div>
+        <div class="parem">
+            <div class="pealkiri">
+                <h2>
+                    Soovitused
+                </h2>
+            </div>
+            <div class="textbox">
+                <p>
+                    Kui tead mõnda head retsepti mida tahaksid kajastada meie lehel, siis jäta enda retsept siia.
+                </p>
+                <form action="/action_page.php" id="usrform">
+                    Nimi: <input type="text" name="usrname">
+                    <input type="submit">
+                </form>
+                <br>
+                <textarea rows="4" cols="50" name="comment" form="usrform"> Kirjuta siia...</textarea>
+            </div>
+        </div>
     </div>
 </body>
 </html>
