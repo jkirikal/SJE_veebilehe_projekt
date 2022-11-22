@@ -4,7 +4,7 @@
     flex-direction: row;
 }
 
-.vasak {    
+.kontaktcontainer {    
     display: flex;
     flex-direction: column;
     background: #FFF1BD;
@@ -12,7 +12,7 @@
     
 }
 
-.parem {
+.tagasisidecontainer {
     display: flex;
     flex-direction: column;
     background: #FFF1BD;
@@ -29,9 +29,17 @@
     margin: 50px;
 }
 
+.tagasisidekast {
+    text-align: center;
+}
+
 
 .kastid > div {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+
+#feedbackbutton{
+    background-color:#146356;
 }

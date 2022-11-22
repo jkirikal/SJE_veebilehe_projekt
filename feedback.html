@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style/feedback.css">
     <link rel="stylesheet" type="text/css" href="/style/main.css">
-
+    <script src=".\src\feedback.js"></script>
     <title>Retseptiabi</title>
 </head>
 <body>
@@ -14,39 +14,37 @@
         <header>
             <h1>Tudengi retseptiabi</h1>
             <nav>
-                <a href="/homepage.html"><h2>Pealeht</h2></a>
-                <a href="/recipes.html"><h2>Retseptid</h2></a>
-                <a href="/feedback.html"><h2>Tagasiside/Soovitused</h2></a>
+                <a id = "homepagebutton" href="/homepage.html"><h2>Pealeht</h2></a>
+                <a id = "reciesbutton" href="/recipes.html"><h2>Retseptid</h2></a>
+                <a id = "feedbackbutton" href="/feedback.html"><h2>Tagasiside/Soovitused</h2></a>
             </nav>
         </header>
     </div>
     <div class="kastid">
-        <div class="vasak">    
+        <div class="kontaktcontainer">    
             <div class ="pealkiri">
                 <h2>Kontaktid</h2>
             </div>
             <div class="textbox">    
                 <p>
-                    Kui tahad anda üldist tagasisidet või jagada midagi, kirjuta meile!<br>tudengiretseptid@gmail.com
+                    Kui tahad anda üldist tagasisidet või jagada midagi, kirjuta meile!<br>tudengiretseptid@outlook.com
                 </p>
             </div>
         </div>
-        <div class="parem">
+        <div class="tagasisidecontainer">
             <div class="pealkiri">
                 <h2>
                     Soovitused
                 </h2>
             </div>
-            <div class="textbox">
-                <p>
-                    Kui tead mõnda head retsepti mida tahaksid kajastada meie lehel, siis jäta enda retsept siia.
-                </p>
-                <form action="/action_page.php" id="usrform">
-                    Nimi: <input type="text" name="usrname">
-                    <input type="submit">
+            <p>
+            Kui tead mõnda head retsepti mida tahaksid kajastada meie lehel, siis jäta enda retsept siia.
+            </p>
+            <div id="tagasiside" class="tagasisidekast">
+                <form>
+                    <input type="text" id="kasutajasisestus"/>
+                    <input class="nupp" type="button" value="Saada tagasiside" onclick="saadameil();"/>
                 </form>
-                <br>
-                <textarea rows="4" cols="50" name="comment" form="usrform"> Kirjuta siia...</textarea>
             </div>
         </div>
     </div>
