@@ -1,60 +1,20 @@
-*{
-    font-family: Arial, sans-serif;
-    color: #0f4940;
+a:link{
+    text-decoration:underline
 }
-body {
-    background-color: #E8E8CC;
-}
-
 a:hover {
     color:#3b786f
 }
 
-header {
-    display:flex;
-    flex-direction:column;
-    background-color: #146356;
-}
-
-header h1 {
-    display:flex;
-    justify-content:center;
-    border-radius: 3px;
-    margin: 10px;
-    padding: 4px;
-    color:#FFF1BD;
-}
-nav {
-    display:flex;
-    justify-content:space-around;
-    background-color: #0f4940;
-}
-
-nav a {
-    display:flex;
-    justify-content:center;
-    width:300px;
-    border-radius: 3px;
-    
-}
-
-nav a:hover {
-    background-color: #3b786f;
-  }
-  
-nav a h2 {
-    color:#FFF1BD;
-}
 .tekst{
-    width: 50%;
     display:flex;
     flex-direction: column;
-    border-radius: 3px;
+    margin: 20px;
+    width:50%;
     background-color: #FFF1BD;
+    /*padding:5px;*/
+    border-radius: 3px;
+    text-align:justify;
 }
 .pealkiri{
-    width: 50%;
-    display:flex;
-    border-radius: 3px;
     background-color: #b5daa6;
 }
