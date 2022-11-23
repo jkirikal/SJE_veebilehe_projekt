@@ -1,19 +1,23 @@
 
-ul {
-    list-style-type: none;
+
+#recipesbutton{
+    background-color:#146356;
 }
+
 
 li {
     margin:3px;
 }
 
-.main {
+#main {
     display:flex;
     flex-direction:column;
+    margin-top:40px;
 }
 .basic_inf{
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
     background-color: #b5daa6;
     border-radius: 3px;
     padding:5px;
@@ -25,7 +29,8 @@ li {
     background-color: #FFF1BD;
     border-radius: 3px;
     margin: 10px;
-    height: 400px;
+    margin-left: 50px;
+    margin-right:50px;
 }
 
 .food_basic h4 ul{
@@ -33,7 +38,15 @@ li {
     flex-direction:row;
     width:700px;
     justify-content:space-between;
+    list-style-type: none;
 }
-#recipesbutton{
-    background-color:#146356;
+.instructions {
+    display:flex;
+    flex-direction:row;
+}
+.foodIngredients{
+    width:50%;
+}
+.itemInstructions{
+    width:50%;
 }

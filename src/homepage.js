@@ -7,7 +7,7 @@ window.onload = function() {
             .then(json => {
                 let main_div = document.getElementById("main")
                 for(i=0;i<json.length;i++){
-                    let item = json[i]
+                    let item = json[i];
                     let divfood = document.createElement('div');
 
                     let divbasic = document.createElement('div');
@@ -21,13 +21,11 @@ window.onload = function() {
                     let basicspan = document.createElement('span');
                     let basich4 = document.createElement('h4');
                     let basiclist = document.createElement('ul');
-                    for(a=0;a<item.basicData.length;a++){
-                        let singlebasic = item.basicData[a];
-                        console.log(singlebasic)
-                    
+                    for(var a in item.basicData){
+                        let singlebasic = a + ": " + item.basicData[a].toString();
                         let basicdata = document.createElement('li');
                         basicdata.innerText = singlebasic;
-                        basiclist.appendChild(basicdata)
+                        basiclist.appendChild(basicdata);   
                     }
                     basich4.appendChild(basiclist);
                     basicspan.appendChild(basich4);
@@ -37,29 +35,27 @@ window.onload = function() {
                     divbasic.appendChild(basicspan);
                     divbasic.className="basic_inf"
 
-
-
-
-
                     let divinstruct = document.createElement('div');
-                    let spanitems = document.createElement('span');
+                    let divitems = document.createElement('div');
                     let itemslist = document.createElement('ul');
-                    for(a=0;a<item.items.lenght;a++){
+                    for(a=0;a<item.items.length;a++){
                         let singleitem = item.items[a];
                         let singledata = document.createElement('li');
                         singledata.innerText = singleitem;
                         itemslist.appendChild(singledata)
                     }
-                    spanitems.appendChild(itemslist);
+                    divitems.appendChild(itemslist);
+                    divitems.className = "foodIngredients"
 
 
-                    let spaninstruct = document.createElement('span');
+                    let textdiv = document.createElement('div');
+                    textdiv.className = "itemInstructions";
                     let instructp = document.createElement('p');
                     instructp.innerText = item.instruction;
-                    spaninstruct.appendChild(instructp);
+                    textdiv.appendChild(instructp);
                     
-                    divinstruct.appendChild(spanitems);
-                    divinstruct.appendChild(spaninstruct);
+                    divinstruct.appendChild(divitems);
+                    divinstruct.appendChild(textdiv);
                     divinstruct.className="instructions"
 
                     divfood.appendChild(divbasic);
@@ -76,12 +72,6 @@ window.onload = function() {
                 errDiv.className = 'post';
                 errDiv.innerText = err;
                 document.body.appendChild(errDiv);
-            })
-            .finally( () => {
-                let footer = document.createElement('footer');
-                date = new Date().toLocaleString()
-                footer.innerText = date;
-                document.body.appendChild(footer);
             })
         
         

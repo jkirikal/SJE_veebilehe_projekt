@@ -1,6 +1,7 @@
 * {
     font-family: Arial, sans-serif;
     color: #0f4940;
+    line-height: 1.6;
 }
 body {
     margin: 0px;
@@ -45,4 +46,23 @@ nav a:hover {
   
 nav a h2 {
     color:#FFF1BD;
+}
+
+
+#p_upper{
+    display:flex;
+    justify-content:center;
+    background-color: #0f4940;
+    color:#f9f0cf;
+    padding:15px;
+    margin:0px;
+    margin-top:30px;
+}
+#p_lower{
+    display:flex;
+    justify-content:center;
+    background-color: #146356;
+    color:#f9f0cf;
+    padding:15px;
+    margin:0px;
 }
