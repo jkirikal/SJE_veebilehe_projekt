@@ -22,7 +22,6 @@ a:hover {
 }
 .pealkiri{
     background-color: #b5daa6;
-    /*width: 50%;*/
     height: 50px;
     padding: 5px;
     padding-bottom: 25px;
@@ -39,4 +38,11 @@ a:hover {
 #main{
     display:flex;
     justify-content: center;
+}
+#pilt{
+    display:flex;
+    justify-content: left;
+    border-radius:3px;
+    padding:30px;
+
 }
