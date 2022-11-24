@@ -14,7 +14,7 @@ a:hover {
     justify-content: center;
     margin:0px;
     margin-bottom: 20px;
-    width:50%;
+    /*width:50%;*/
     background-color: #FFF1BD;
     padding:5px;
     border-radius: 3px;
@@ -22,11 +22,21 @@ a:hover {
 }
 .pealkiri{
     background-color: #b5daa6;
-    width: 50%;
+    /*width: 50%;*/
+    height: 50px;
     padding: 5px;
+    padding-bottom: 25px;
     margin-top:20px;
+    border-radius:3px;
 }
 .main{
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    padding:30px;
+    width:50%;
+}
+#main{
+    display:flex;
+    justify-content: center;
 }
