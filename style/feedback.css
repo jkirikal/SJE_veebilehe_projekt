@@ -9,7 +9,11 @@
     flex-direction: column;
     background: #FFF1BD;
     margin: 20px;
-    
+    width: 50%;
+    height:50%;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .tagasisidecontainer {
@@ -18,15 +22,21 @@
     background: #FFF1BD;
     flex-grow: 1;
     margin: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 .pealkiri {
+    border-radius: 3px;
     background-color: #b5daa6;
 }
 
 
 .textbox {
-    margin: 50px;
+    margin: 20px;
 }
 
 .tagasisidekast {
@@ -37,9 +47,15 @@
 .kastid > div {
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
 }
 
 #feedbackbutton{
     background-color:#146356;
+}
+
+#quote{
+    background-color: #b5daa6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    border-radius: 3px;
 }
