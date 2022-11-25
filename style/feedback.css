@@ -4,10 +4,18 @@
     flex-direction: row;
 }
 
+.tühicontainer {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
 .kontaktcontainer {    
     display: flex;
     flex-direction: column;
     background: #FFF1BD;
+    flex-grow: 1;
     margin: 20px;
     width: 50%;
     height:50%;
@@ -36,6 +44,7 @@
 
 
 .textbox {
+    text-align: center;
     margin: 20px;
 }
 
