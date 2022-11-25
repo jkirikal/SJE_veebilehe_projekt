@@ -30,6 +30,7 @@ nav {
     display:flex;
     justify-content:space-around;
     background-color: #0f4940;
+    justify-content: left;
 }
 
 nav a {
@@ -65,4 +66,11 @@ nav a h2 {
     color:#f9f0cf;
     padding:15px;
     margin:0px;
+}
+
+.logod {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
 }
