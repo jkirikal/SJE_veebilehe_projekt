@@ -4,10 +4,15 @@
     flex-direction: row;
 }
 
-.tühicontainer {
-    display: flex;
-    text-align: center;
+.pilt {
+    max-height: 100%;
+    max-width: 100%;
     margin: auto;
+}
+
+.pildicontainer {
+    display: flex;
+    margin: 10px;
     margin-bottom: 10%;
 }
 
@@ -42,7 +47,6 @@
     background-color: #b5daa6;
 }
 
-
 .textbox {
     text-align: center;
     margin: 20px;
@@ -51,7 +55,6 @@
 .tagasisidekast {
     text-align: center;
 }
-
 
 .kastid > div {
   text-align: center;
