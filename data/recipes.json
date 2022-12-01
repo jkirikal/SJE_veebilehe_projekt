@@ -2,37 +2,37 @@
     {
       "foodId": 1,
       "name": "Pasta Bolognese",
-      "basicData":{"Aeg/min":20,"Hind/eur":5,"Toidukordi":4,"Kcal":500},
+      "basicData":{"Aeg/min":20,"Hind/eur/toidukord":1.14,"Toidukordi":5,"Kcal/toidukord":731},
       "items": ["1 sibul","2 küüslauguküünt", "300-500g hakkliha", "400g purustatud tomateid/tomatipastat", "sool, pipar", "basiilik", "500g, spagette/makarone"],
       "instruction":"Pruunista  hakitud sibul. Lisa hakkliha, maitsesta soolaga ja prae veel umbes 5 minutit. Lisa hakitud küüslauk. Lisa  tomatipasta. Kuumuta keemiseni, siis alanda kuumust, ja lase veits podiseda. \nSega aeg-ajalt, et vältida põhjakõrbemist. Maitsesta vajadusel soola-pipraga, sega juurde katkirebitud värskeid basiilikulehti(fancy). \nLõpuks sega keedetud makaronidega, peale riivi parmesani."
 
     },
     {
       "foodId": 2,
-      "name": "Wok",
-      "basicData":{"Aeg/min":20,"Hind/eur":5,"Toidukordi":2,"Kcal":500},
+      "name": "Vokiroog",
+      "basicData":{"Aeg/min":15,"Hind/eur/toidukord":2.3,"Toidukordi":2,"Kcal/toidukord":600},
       "items":["1 sibul", "2 pakki kiirnuudleid/100 g munanuudleid", "oma soovi järgi pakk külmutatud köögivilju", "200-250g kanaliha", "magushapu/bbq kaste"],
       "instruction":"Pruunista hakitud sibul, lisa kana ja küpseta samuti pruuniks. Seejärel lisa külmutatud köögiviljad ja lase kaane all üles soojeneda. Samal ajal kalla nuudlitele keedetud vesi peale ja lase pehmeneda. Lisa pehmed nuudlid pannile, lisa maitse järgi soola, pipart ja kastet ning sega korralikult läbi."
     },
     {
       "foodId": 3,
-      "name": "Wrap",
-      "basicData":{"Aeg/min":20,"Hind/eur":5,"Toidukordi":6,"Kcal":500},
+      "name": "Tortilla",
+      "basicData":{"Aeg/min":15,"Hind/eur/toidukord":1.2,"Toidukordi":6,"Kcal/toidukord":430},
       "items":["1-2 sibulat", "Misiganes liha 300-500g", "riis (2 kotti Bosto riisi)", "wrapikaste", "broilerimaitseaine", "Tortilla lehti", "(rohelist)"],
-      "instruction":"Pruunista hakitud sibul, lisa liha ja küpseta läbi. Kui liha on küps, lisa maitseaine. Samal ajal keeda riis. Rulli 1/6 riisist ja lihast tortilla vahele, lisa wrapikastet ja soovil midagi rohelist. Ülejäänud riisi ja liha saad jätta järgmiseks korraks külmikusse."
+      "instruction":"Pruunista hakitud sibul, lisa liha ja küpseta läbi. Kui liha on küps, lisa maitseaine. Samal ajal keeda riis. Rulli 1/6 riisist ja lihast tortilla vahele, lisa wrapikastet ja soovil midagi rohelist. Ülejäänud riisi ja liha-sibulasegu saad jätta järgmiseks korraks külmikusse."
     },
     {
         "foodId": 4,
         "name": "Koorene kanapasta",
-        "basicData":{"Aeg/min":30,"Hind/eur":5,"Toidukordi":4,"Kcal":500},
+        "basicData":{"Aeg/min":30,"Hind/eur/toidukord":1.6,"Toidukordi":5,"Kcal/toidukord":750},
         "items":["400-500g makarone", "500g kanaliha", "2 küüslauguküünt", "4dl 35% koort(vahukoort)", "parmesani", "basiilikut"],
         "instruction":"Lõika kana väikesteks tükkideks. Haki küüslauk. Riivi vajadusel juust.\nKuumuta suures potis vesi keemiseni.\nKuumuta pannil õli. Lisa kanatükid ning prae segades, kuni kanatükid on kenasti jumekad. Maitsesta soola-pipraga, siis lisa pannile küüslauk ja prae veel minut aega.\nNüüd kalla pannile koor, sega läbi, alanda kuumust ja jäta podisema. \nKui kasutad kuivatatud basiilikut, lisa see nüüd.\nSamal ajal keeda makaronid valmis, ning seejärel lisa keedutpotti lisaks kurnatud makaronidele ka kanakaste. Sega läbi ja ongi valmis.\n Serveerimisel lisa veel riivjuust. \n\n Ps. Lõpuks on ka hea veel brokkolit/lillkapsast/köögivilju juurde lisada, see lisab meeldivat värvi ja maitset. :)"  
       },
       {
         "foodId": 5,
-        "name": "Chili con carne",
-        "basicData":{"Aeg/min":20,"Hind/eur":5,"Toidukordi":4,"Kcal":500},
-        "items":[],
-        "instruction":""  
+        "name": "Chilli con carne",
+        "basicData":{"Aeg/min":20,"Hind/eur/toidukord":1.75,"Toidukordi":6,"Kcal/toidukord":600},
+        "items":["500g hakkliha", "1-2 sibulat", "2 küüslauguküünt", "1-2sl tšillipulbrit", "800g konservube tomatikastmes", "2 paprikat", "400g ehk 1 purk konservitud purustatud tomateid", "sool, pipar", "riis (2 kotti Bosto riisi)"],
+        "instruction":"Pruunista hakkliha ja sibul õlis. Lisa küüslauk, purustatud tomatid ja tšillipulber. Kuumuta mõned minutid. \nLisa oad tomatikastmes ja hakitud paprika. Hauta 10 minutit, maitsesta soola ja pipraga. \nServeeri riisi või kartuliga."  
       }
 ]

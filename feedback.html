@@ -8,15 +8,16 @@
     <link rel="stylesheet" type="text/css" href="/style/main.css">
     <script src="/src/feedback.js"></script>
     <title>Retseptiabi</title>
+    <link rel="icon" type="image/x-icon" href="/photos/icon.ico">
 </head>
 <body>
     <div>
         <header>
             <h1>Tudengi retseptiabi</h1>
             <nav>
-                <a id = "homepagebutton" href="/homepage.html"><h2><img class="logod" src="/photos/homepagelogo.png">Pealeht</h2></a>
-                <a id = "reciesbutton" href="/recipes.html"><h2><img class="logod" src="/photos/recipeslogo.png">Retseptid</h2></a>
-                <a id = "feedbackbutton" href="/feedback.html"><h2><img class="logod" src="/photos/feedbacklogo.gif">Tagasiside/Soovitused</h2></a>
+                <a id = "homepagebutton" href="/homepage.html"><h2><img class="logod" src="/photos/homepagelogo.png" alt="">Pealeht</h2></a>
+                <a id = "reciesbutton" href="/recipes.html"><h2><img class="logod" src="/photos/recipeslogo.png" alt="">Retseptid</h2></a>
+                <a id = "feedbackbutton" href="/feedback.html"><h2><img class="logod" src="/photos/feedbacklogo.gif" alt="">Tagasiside/Soovitused</h2></a>
             </nav>
         </header>
     </div>
@@ -32,7 +33,7 @@
                 <h4>
                     Kui tahad anda üldist tagasisidet või jagada midagi, kirjuta meile!
                 </h4>
-                <h4 id="hover" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <h4 id="email" onmouseover="mouseOver();" onmouseout="mouseOut();" onclick="sendEmail();">
                     tudengiretseptid@gmail.com
                 </h4>
             </div>
@@ -42,7 +43,7 @@
                 </p>
             </div>
             <div class="pildicontainer">
-                <img class="pilt" src="https://media.tenor.com/okyDOdvpVDcAAAAC/master-chef-gordon-ramsey.gif">
+                <img class="pilt" src="https://media.tenor.com/okyDOdvpVDcAAAAC/master-chef-gordon-ramsey.gif" alt="Pilt Gordon Ramseyst">
             </div>
         </div>
         
@@ -53,12 +54,12 @@
                 </h2>
             </div>
             <div class="tagasisidekast">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdt4UxmmdEdB-HGsKDxZJjDx-pm0IGhtzep2hxZby3bYpG3fQ/viewform?embedded=true" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdt4UxmmdEdB-HGsKDxZJjDx-pm0IGhtzep2hxZby3bYpG3fQ/viewform?embedded=true"></iframe>
             </div>
         </div>
     </div>
     <footer>
-        <p id="p_upper">© 2022 Retseptiabi OÜ</p>
+        <p id="p_upper">2022 Retseptiabi</p>
         <p id="p_lower">Johan Kirikal, Kreete Kuusk, Kärt Haak</p>
     </footer>
 </body>

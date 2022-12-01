@@ -2,10 +2,13 @@
     background-color:#146356;
 }
 a:link{
-    text-decoration:underline
+    text-decoration:underline;
 }
 a:hover {
-    color:#3b786f
+    color:#3b786f;
+}
+nav a:link{
+    text-decoration:none;
 }
 
 .tekst{
@@ -44,5 +47,7 @@ a:hover {
     justify-content: left;
     border-radius:3px;
     padding:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
