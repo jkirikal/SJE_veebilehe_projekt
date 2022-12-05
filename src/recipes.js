@@ -2,8 +2,7 @@
 // See on selleks vajalik, et kui tulevikus tahta lihtsamalt retsepte juurde lisada/muuta, siis saab seda teha kõike mugavalt ja loetavalt,
 // ning vajadusel saab retseptielementidesse veel automaatikat lisada.
 
-
-fetch('data/recipes.json')
+fetch('./data/recipes.json')
     .then((response) => response.json())
     .then(json => {
         let main_div = document.getElementById("main")
